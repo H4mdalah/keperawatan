@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SEDINI</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="logo">
+        <img src="logo.png" alt="Logo SEDINI" />
+      </div>
+      <div class="nav-links">
+        <a href="#">Beranda</a>
+        <a href="#">Tentang</a>
+        <a href="#">Kontak</a>
+      </div>
+    </div>
+    <div class="container">
+      <div class="header">
+        <h1 class="title">SEDINI</h1>
+        <p class="subtitle">Model Komunikasi Perawat yang Humanis</p>
+        <p class="description">
+          Sebuah pendekatan komunikasi terapeutik yang dirancang khusus untuk
+          meningkatkan kualitas interaksi antara perawat dengan pasien dan
+          keluarga pasien di lingkungan rumah sakit.
+        </p>
+      </div>
+
+      <!-- Hospital Scene Animation -->
+      <div class="hospital-scene">
+        <div class="hospital-room">
+          <div class="floor"></div>
+
+          <!-- Hospital Bed -->
+          <div class="hospital-bed">
+            <div class="bed-pillow"></div>
+            <div class="bed-blanket"></div>
+          </div>
+
+          <!-- Patient -->
+          <div class="patient">
+            <div class="patient-head"></div>
+            <div class="patient-body"></div>
+          </div>
+
+          <!-- Animated Nurse -->
+          <div class="nurse">
+            <div class="nurse-head"></div>
+            <div class="nurse-hat"></div>
+            <div class="nurse-body"></div>
+            <div class="nurse-arms nurse-arm-left"></div>
+            <div class="nurse-arms nurse-arm-right"></div>
+            <div class="nurse-legs nurse-leg-left"></div>
+            <div class="nurse-legs nurse-leg-right"></div>
+          </div>
+
+          <!-- Family Member -->
+          <div class="family-member">
+            <div class="family-head"></div>
+            <div class="family-body"></div>
+          </div>
+
+          <!-- Medical Equipment -->
+          <div class="iv-stand">
+            <div class="iv-bag"></div>
+          </div>
+
+          <div class="medical-chart"></div>
+
+          <!-- Speech Bubbles -->
+          <div class="speech-bubble nurse-speech">
+            <strong
+              >"Selamat pagi, Pak Ahmad. Bagaimana perasaan Bapak hari
+              ini?"</strong
+            >
+          </div>
+
+          <div class="speech-bubble patient-speech">
+            <em>"Terima kasih Sus, saya merasa lebih baik..."</em>
+          </div>
+        </div>
+      </div>
+
+      <!-- SEDINI Container -->
+
+      <div class="sedini-container">
+        <div class="sedini-card">
+          <div class="card-letter">SE</div>
+          <h2 class="card-title">SENTUH</h2>
+          <ul class="card-items">
+            <li>
+              <strong>Senyum</strong> - Berikan senyuman tulus untuk menciptakan
+              suasana hangat
+            </li>
+            <li>
+              <strong>Empati</strong> - Tunjukkan pemahaman terhadap perasaan
+              pasien
+            </li>
+            <li>
+              <strong>Nama</strong> - Panggil pasien dengan nama yang mereka
+              sukai
+            </li>
+            <li>
+              <strong>Tanya</strong> - Tanyakan keluhan atau kebutuhan dengan
+              lembut
+            </li>
+            <li>
+              <strong>Ulangi</strong> - Konfirmasi pemahaman dengan mengulang
+            </li>
+            <li>
+              <strong>Hangatkan</strong> - Ciptakan suasana yang nyaman dan
+              hangat
+            </li>
+          </ul>
+        </div>
+
+        <div class="sedini-card">
+          <div class="card-letter">DI</div>
+          <h2 class="card-title">DENGAR</h2>
+          <ul class="card-items">
+            <li>
+              <strong>Mendengarkan</strong> - Berikan perhatian penuh saat
+              pasien berbicara
+            </li>
+            <li>
+              <strong>Keluhan</strong> - Dengarkan setiap keluhan dengan seksama
+            </li>
+            <li>
+              <strong>Kepedulian</strong> - Tunjukkan bahwa Anda benar-benar
+              peduli
+            </li>
+            <li>
+              <strong>Validasi</strong> - Akui perasaan dan pengalaman pasien
+            </li>
+            <li>
+              <strong>Refleksi</strong> - Cerminkan kembali apa yang disampaikan
+            </li>
+            <li>
+              <strong>Dukungan</strong> - Berikan dukungan emosional yang
+              dibutuhkan
+            </li>
+          </ul>
+        </div>
+
+        <div class="sedini-card">
+          <div class="card-letter">NI</div>
+          <h2 class="card-title">INFORMASI</h2>
+          <ul class="card-items">
+            <li>
+              <strong>Memberikan</strong> - Sampaikan informasi yang dibutuhkan
+            </li>
+            <li><strong>Jelas</strong> - Gunakan bahasa yang mudah dipahami</li>
+            <li>
+              <strong>Akurat</strong> - Pastikan informasi yang diberikan benar
+            </li>
+            <li>
+              <strong>Relevan</strong> - Sesuaikan dengan kebutuhan pasien
+            </li>
+            <li><strong>Terstruktur</strong> - Sampaikan secara sistematis</li>
+            <li>
+              <strong>Konfirmasi</strong> - Pastikan pasien memahami informasi
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="interactive-demo">
+        <h2 class="demo-title">Simulasi Komunikasi SEDINI</h2>
+        <button class="demo-button" onclick="toggleDemo()">
+          Mulai Simulasi
+        </button>
+
+        <div class="communication-flow" id="demoFlow">
+          <div class="flow-step">
+            <h4>🌟 SENTUH - Senyum & Empati</h4>
+            <p>
+              "Selamat pagi, Pak Ahmad. Saya senang melihat Bapak hari ini.
+              Bagaimana perasaan Bapak setelah istirahat semalam? Saya melihat
+              Bapak tampak lebih segar."
+            </p>
+          </div>
+
+          <div class="flow-step">
+            <h4>👂 DENGAR - Mendengarkan Aktif</h4>
+            <p>
+              "Saya mendengar Bapak mengatakan merasa khawatir tentang hasil
+              pemeriksaan nanti. Kekhawatiran Bapak sangat bisa saya pahami, dan
+              perasaan ini normal dialami oleh setiap pasien."
+            </p>
+          </div>
+
+          <div class="flow-step">
+            <h4>💬 INFORMASI - Penjelasan Jelas</h4>
+            <p>
+              "Ijinkan saya menjelaskan prosedur pemeriksaan yang akan Bapak
+              jalani. Pemeriksaan ini akan berlangsung sekitar 30 menit, tidak
+              menimbulkan rasa sakit, dan tim medis akan memastikan Bapak
+              nyaman. Apakah ada yang ingin Bapak tanyakan?"
+            </p>
+          </div>
+
+          <div class="flow-step">
+            <h4>🔄 Ulangi & Konfirmasi</h4>
+            <p>
+              "Jadi yang saya pahami, Bapak khawatir tentang prosedur dan
+              hasilnya. Tim akan menjelaskan setiap langkah dan hasil akan
+              disampaikan segera. Apakah pemahaman saya sudah benar, Pak Ahmad?"
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="form-container">
+      <div class="form-header">
+        <h1>Managemen Keperawatan</h1>
+        <p>Silakan isi formulir di bawah ini.</p>
+      </div>
+
+      <div class="form-group">
+        <div class="form-row">
+          <label for="nama">Nama :</label>
+          <input type="text" id="nama" name="nama" />
+        </div>
+
+        <div class="form-row">
+          <label for="ttl">Tempat Tanggal Lahir :</label>
+          <input type="text" id="ttl" name="ttl" />
+        </div>
+
+        <div class="form-row">
+          <label for="alamat">Alamat :</label>
+          <input type="text" id="alamat" name="alamat" />
+        </div>
+      </div>
+
+      <div class="form-description">
+        <textarea
+          id="deskripsi"
+          name="deskripsi"
+          placeholder="Deskripsi singkat tentang pasien..."
+        ></textarea>
+      </div>
+    </div>
+
+    <!-- <div class="form-description">
+        <input type="text" id="deskripsi" name="deskripsi" placeholder="Deskripsi singkat tentang pasien..." />
+      </div> -->
+
+    <button class="audio-control" id="audioToggle">🔊</button>
+
+    <div class="footer">
+      <p>&copy; 2025 Managemen Keperawatan. All rights reserved.</p>
+    </div>
+
+    <audio id="bgm" loop autoplay>
+      <source src="lagu.m4a" type="audio/mpeg" />
+      Browser tidak mendukung audio.
+    </audio>
+    <script src="script.js"></script>
+  </body>
+</html>
